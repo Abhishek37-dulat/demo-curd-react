@@ -1,0 +1,59 @@
+.home {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  margin-top: 10%;
+  flex-direction: column;
+}
+.home-top {
+  display: flex;
+  flex-direction: row;
+}
+.home-creat-button {
+  margin-left: 80%;
+}
+.home-title {
+  margin-bottom: 2%;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.home-creat-button {
+  /* border: 1px solid black; */
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+  background-color: rgba(75, 0, 118, 0.7);
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: -2%;
+}
+.home-creat-button:hover {
+  background-color: rgba(75, 0, 118, 0.5);
+  width: 51px;
+  height: 51px;
+}
+.home-creat-button p {
+  margin-top: -5%;
+  font-size: 36px;
+}
+.update-button,
+.delete-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+}
+.update-button {
+  background-color: #088f17;
+  color: aliceblue;
+}
+
+.delete-button {
+  background-color: #df0818;
+  color: aliceblue;
+}

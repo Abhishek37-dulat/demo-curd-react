@@ -1,0 +1,82 @@
+.userform {
+  /* border: 1px solid black; */
+  width: 30%;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5%;
+  width: 100%;
+  height: 100%;
+}
+.u-title,
+.u-name,
+.u-email,
+.u-phone,
+.u-password,
+.u-button,
+.c-names {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+}
+
+.u-title p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.u-name input,
+.u-email input,
+.u-phone input,
+.u-password input {
+  width: 80%;
+  height: 70%;
+  border: none;
+  border-bottom: 1px solid #001100;
+  padding: 2%;
+}
+
+.u-button button {
+  margin-top: 3%;
+  width: 50%;
+  height: 70%;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border: none;
+  background-color: rgba(75, 0, 118, 0.7);
+  color: aliceblue;
+  cursor: pointer;
+}
+.c-names {
+  margin-top: 2%;
+  flex-direction: column;
+  margin-left: 10%;
+}
+.c-names p {
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+.c-names select {
+  width: 80%;
+  height: 70%;
+  border: none;
+  border-radius: 3.5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  cursor: pointer;
+}
+.c-names select option {
+  cursor: pointer;
+}
