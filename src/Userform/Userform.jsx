@@ -34,7 +34,7 @@ const Userform = () => {
     };
     console.log(user);
     axios
-      .post("http://localhost:5126/", user)
+      .post("https://backend-node-pek0.onrender.com/", user)
       .then((res) => console.log(res.data))
       .catch((err) => console.log(err));
 

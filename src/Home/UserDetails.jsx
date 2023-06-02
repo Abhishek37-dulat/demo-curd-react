@@ -16,7 +16,7 @@ import { useNavigate } from "react-router-dom";
 const UserDetails = () => {
   const navigate = useNavigate();
 
-  const url = "http://localhost:5126/";
+  const url = "https://backend-node-pek0.onrender.com/";
   const [data, setData] = useState([]);
 
   const fetchInfo = () => {
@@ -28,7 +28,7 @@ const UserDetails = () => {
 
   const deleteUser = (id) => {
     axios
-      .delete("http://localhost:5126/" + id)
+      .delete("https://backend-node-pek0.onrender.com/" + id)
       .then((res) => console.log(res.data));
     setData(data.filter((el) => el._id !== id));
   };

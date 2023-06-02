@@ -18,7 +18,7 @@ const Userform = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5126/" + id)
+      .get("https://backend-node-pek0.onrender.com/" + id)
       .then((res) => {
         setDetails({
           name: res.data.name,
@@ -53,7 +53,7 @@ const Userform = () => {
     };
     console.log(user);
     axios
-      .put("http://localhost:5126/" + id, user)
+      .put("https://backend-node-pek0.onrender.com/" + id, user)
       .then((res) => console.log(res.data))
       .catch((err) => console.log(err));
 
